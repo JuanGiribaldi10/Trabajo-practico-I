@@ -1,3 +1,4 @@
+/*Personalizar pagina principal*/
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(227, 227, 227);
@@ -44,4 +45,49 @@ footer {
     text-align: center;
     background-color: purple;
     color: white;
+}
+/*Personalizar pagina de receta*/
+.receta {
+    background-color: rgb(250, 255, 185);
+    border: solid 1px black;
+    color: black;
+    font-size: 20px;
+    line-height: 10px;
+}
+.preparacion {
+    background-color: rgb(255, 255, 255);
+    border: 3px dotted black;
+}
+/* Personalizar pagina de horario */
+
+.horario {
+    background-color: rgb(255, 232, 158);
+    border: solid 1px black;
+    color: black;
+    line-height: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    line-height: 30px;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+
+th {
+    background-color: rgb(255, 166, 0);
+}
+
+td {
+    background-color: white;
+}
+footer.horario {
+    font-size: 15px;
+    text-align: center;
 }
