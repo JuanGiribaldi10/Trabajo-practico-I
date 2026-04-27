@@ -1,12 +1,13 @@
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgba(245, 245, 220, 0.664);
+    background-color: rgb(227, 227, 227);
 }
 header {
     color: white;
     text-align: center;
     background-color: purple;
-    line-height: 50px;
+    line-height: 80px;
+    font-size: 30px;
 }
 
 nav ul {
@@ -14,7 +15,8 @@ nav ul {
 }
 nav a{
     text-decoration: none;
-    color: black
+    color: black;
+    font-size: 25px;
 }
 nav ul a:hover {
         color: purple
@@ -28,16 +30,17 @@ nav {
     
 }
 
-main h2 {
-    font-size: 20px;
-}
-
 main img {
     border: solid 1px black;
 }
-
+main p, li {
+    font-size: 25px;
+}
+main h2{
+    text-decoration:underline;
+}
 footer {
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     background-color: purple;
     color: white;
