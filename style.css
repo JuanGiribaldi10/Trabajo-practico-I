@@ -1,0 +1,44 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(245, 245, 220, 0.664);
+}
+header {
+    color: white;
+    text-align: center;
+    background-color: purple;
+    line-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black
+}
+nav ul a:hover {
+        color: purple
+}
+nav li {
+    display: inline;
+    
+}
+nav {
+    text-align: left;
+    
+}
+
+main h2 {
+    font-size: 20px;
+}
+
+main img {
+    border: solid 1px black;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    background-color: purple;
+    color: white;
+}
